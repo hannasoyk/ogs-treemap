@@ -1,0 +1,126 @@
+body {
+  /*background-image:url(http://mbostock.github.io/d3/talk/20111018/texture-noise.png);
+  background-position:initial initial;
+  background-repeat:initial initial;*/
+  font-family:'Helvetica Neue', Helvetica;
+  margin:0;
+  overflow:hidden;
+}
+
+#chart, #header, #footer {
+  position:absolute;
+  top:0;
+}
+#header, #footer {
+  display:block;
+  font-weight:300;
+  text-shadow:#FFFFFF 0 1px 0;
+  z-index:1;
+}
+#header.inverted, #footer.inverted {
+  color:#FFFFFF;
+  text-shadow:#000000 0 1px 4px;
+}
+#header {
+  left:140px;
+  top:80px;
+  width:1000px;
+}
+#footer {
+  right:140px;
+  text-align:right;
+  top:680px;
+}
+
+#nyu {
+  font-family:'Helvetica Neue', Helvetica;
+  font-size:20px;
+}
+
+#nyu1 {
+  font-family:'Helvetica Neue', Helvetica;
+  font-size: 16px;
+  fill: 57058c;
+	}
+	
+
+rect {
+  /* fill:none; */
+  pointer-events:all;
+}
+
+/*
+rect:hover {
+fill:magenta;
+}*/
+
+
+pre {
+  font-size:18px;
+}
+line {
+  stroke:#000000;
+  stroke-width:1.5px;
+}
+
+.string, .regexp {
+  color:#FF3399;
+}
+.keyword {
+  color:#0000CC;
+}
+.comment {
+  color:#777777;
+  font-style:oblique;
+}
+.number {
+  color:#336699;
+}
+.class, .special {
+  color:#1181B8;
+}
+a:link, a:visited {
+  color:#3182bd;
+  text-decoration:none;
+}
+a:hover {
+  color:#999999;
+}
+.hint {
+  color:#999999;
+  font-size:12px;
+  position:absolute;
+  right:0;
+  width:1280px;
+}
+
+
+/* 
+#tooltip {
+        position: absolute;
+        width: 200px;
+        height: auto;
+        padding: 10px;
+        background-color: white;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        pointer-events: none;
+}
+
+#tooltip.hidden {
+        display: none;
+}
+
+#tooltip p {
+        margin: 0;
+        font-family: sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+}
+
+
+ */

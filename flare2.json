@@ -1,0 +1,22 @@
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "Undergrad",
+   "children": [
+    {
+     "name": "cluster",
+     "children": [
+      {"name": "Associate's", "size": 16},
+      {"name": "Freshman", "size": 747},
+      {"name": "Sophomore", "size": 642},
+      {"name": "Junior", "size": 683},
+      {"name": "Senior", "size": 587}
+
+     ]
+    }
+   ]
+  }     
+    
+   ]
+  }

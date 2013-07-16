@@ -1,0 +1,39 @@
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "Undergraduate",
+   "children": [
+
+      {"name": "Associate's", "size": 16},
+      {"name": "Freshman", "size": 747},
+      {"name": "Sophomore", "size": 642},
+      {"name": "Junior", "size": 683},
+      {"name": "Senior", "size": 587}
+    
+   ]
+  },
+
+  {
+     "name": "Non-Degree",
+     "children": [
+     {"name": "Intensive English Language", "size": 341},
+      {"name": "OPT", "size": 1177}
+      ]
+      },     
+    
+
+  
+
+  
+    {
+     "name": "Graduate",
+     "children": [
+     {"name": "Master's", "size": 3365},
+      {"name": "Doctoral", "size": 982},
+      {"name": "Professional", "size": 822}
+      ]
+      }     
+    
+   ]
+  }
